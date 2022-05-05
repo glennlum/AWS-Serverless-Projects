@@ -13,7 +13,7 @@ This code contains a Python project that returns a list of service-wide envrionm
 ## Project 5
 This code contains a Python project that invokes a lambda function inside a virtual private cloud.  
 
-(AWS SAM framework)=  
+(AWS SAM framework)  
 ## Project 6
 This code contains a Hello World API built with AWS SAM CLI. 
 ## Project 7
