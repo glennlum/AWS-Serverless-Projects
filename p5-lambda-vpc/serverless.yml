@@ -1,0 +1,26 @@
+service: p5-lambda-vpc
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+  vpc:
+    securityGroupIds: 
+    # SG with access to VPC
+      - sg-0e215fd3de5ec0036
+    subnetIds: 
+    # Subnets within VPC
+      - subnet-924c359c
+      - subnet-7c66e623
+
+functions:
+  hello:
+    handler: handler.hello
+  # Uncomment for Function-level VPC
+  # vpc:
+  # securityGroupIds:
+  #   - sg-0e215fd3de5ec0036
+  # subnetIds:
+  #   - subnet-924c359c
+  #   - subnet-7c66e623
