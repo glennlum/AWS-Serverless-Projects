@@ -5,3 +5,5 @@ Building AWS Lambdas with the Serverless framework.
 
 ## P1. Hello World Example 1
 This code contains a Node.js project that returns 'Hello World'
+## P2. Lambda Timeout and Memory
+This code contains a Python project that tests the effect of varying the timeout and memory of a lambda function. 

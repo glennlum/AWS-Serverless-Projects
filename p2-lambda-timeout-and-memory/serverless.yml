@@ -1,0 +1,22 @@
+service: p2-timeout-and-memory
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: python3.8
+  # When uncommented, the settings below will be overriden.
+  # timeout: 6
+  # memorySize: 256
+
+functions:
+  hello-short-timeout:
+    handler: handler.hello
+    timeout: 3
+    memorySize: 128
+    description: Short timeout function 
+  hello-long-timeout:
+    handler: handler.hello
+    timeout: 6
+    memorySize: 256
+    description: Long timeout function 
