@@ -1,0 +1,21 @@
+service: p4-environment-variables
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+# you can define service wide environment variables here
+  environment:
+    ENV_VARIABLE_1: 123
+    ENV_VARIABLE_2: "Hello"
+    ENV_VARIABLE_3: "World"
+
+functions:
+  printEnvDefault:
+    handler: handler.printEnv
+  printEnvModified:
+    handler: handler.printEnv
+    # Override ENV_VARIABLE_3
+    environment:
+      ENV_VARIABLE_3: "Earth"
