@@ -14,7 +14,7 @@ This code contains a Python project that returns a list of service-wide envrionm
 This code contains a Python project that invokes a lambda function inside a virtual private cloud.  
 
 (AWS SAM framework)  
-## P6. Hello World Example
+## P6. Hello World Example 2
 This code contains a Hello World API built with AWS SAM CLI. 
-## P7. Hello World Example
+## P7. Hello World Example 3
 This code contains a Hello World API built with AWS SAM and AWS Toolkit in VS code.
