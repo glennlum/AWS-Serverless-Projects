@@ -16,3 +16,5 @@ This code contains a Python project that invokes a lambda function inside a virt
 (AWS SAM framework)  
 ## P6. Hello World Example
 This code contains a Hello World API built with AWS SAM CLI. 
+## P7. Hello World Example
+This code contains a Hello World API built with AWS SAM and AWS Toolkit in VS code.
