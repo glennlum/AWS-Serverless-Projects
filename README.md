@@ -21,3 +21,5 @@ This code contains a Hello World API built with AWS SAM and AWS Toolkit in VS co
 
 ## Project 8
 This code contains a a simplistic version of an API that might be used by the front-end to retrieve a dynamic message to display in the UI; in this case, greeting the user by name ([source](https://www.serverless.com/blog/make-serverless-graphql-api-using-lambda-dynamodb/)).
+
+![Architectural Diagram](p8-graphql-api-dynamo-db/graphql.jpg)
